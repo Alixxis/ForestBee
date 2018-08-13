@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class JellyFish : MonoBehaviour, IPointerClickHandler
+public class Bees : MonoBehaviour, IPointerClickHandler
 {
     public GameObject scene;
     public Renderer m_MeshRenderer;
@@ -25,11 +25,6 @@ public class JellyFish : MonoBehaviour, IPointerClickHandler
     //Pointer or Gaze clicked the jelly fish
     public void OnPointerClick(PointerEventData eventData)
     {
-        AppManager.Instance.OnJellyFishCreated(this, transform.position, transform.rotation,scene.transform);
-    }
-
-    public void ChangeColor(Color color)
-    {
-        m_Material.color = color;
+        //AppManager.Instance.OnRedBeeCreated(this, transform.position, transform.rotation,scene.transform);
     }
 }
