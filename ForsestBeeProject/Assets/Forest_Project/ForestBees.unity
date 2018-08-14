@@ -605,7 +605,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000011112872720, guid: 85a8865d1bf4a63478038fae23776de8, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 71.09
+      value: 72.59
       objectReference: {fileID: 0}
     - target: {fileID: 4000011112872720, guid: 85a8865d1bf4a63478038fae23776de8, type: 2}
       propertyPath: m_LocalPosition.y
@@ -930,6 +930,11 @@ GameObject:
   m_PrefabParentObject: {fileID: 1939347293013100, guid: 28496271937950a42939b53aa93a0ce4,
     type: 2}
   m_PrefabInternal: {fileID: 491907488}
+--- !u!137 &491907490 stripped
+SkinnedMeshRenderer:
+  m_PrefabParentObject: {fileID: 137664646762823426, guid: 28496271937950a42939b53aa93a0ce4,
+    type: 2}
+  m_PrefabInternal: {fileID: 491907488}
 --- !u!114 &491907491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -952,8 +957,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d20641bec2f47e4c8e85e6623b3f5e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: {fileID: 0}
-  m_MeshRenderer: {fileID: 0}
+  scene: {fileID: 2110268111}
+  m_MeshRenderer: {fileID: 491907490}
 --- !u!1 &499613429
 GameObject:
   m_ObjectHideFlags: 0
@@ -2616,9 +2621,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1029349243}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64a6db766458af24f947cdb642e39f4e, type: 3}
+  m_Script: {fileID: 11500000, guid: b03542cb56c5c1f4dbfffa5bef601d99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firstredBee: {fileID: 0}
+  spawnPoints: []
+  redBeeCount: 0
+  maxRedBee: 16
 --- !u!1001 &1048011732
 Prefab:
   m_ObjectHideFlags: 0
@@ -2977,15 +2986,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000011112872720, guid: 85a8865d1bf4a63478038fae23776de8, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 124.96
+      value: 123.04
       objectReference: {fileID: 0}
     - target: {fileID: 4000011112872720, guid: 85a8865d1bf4a63478038fae23776de8, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 108.02
+      value: 106.15
       objectReference: {fileID: 0}
     - target: {fileID: 4000011112872720, guid: 85a8865d1bf4a63478038fae23776de8, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 82.11
+      value: 84.81
       objectReference: {fileID: 0}
     - target: {fileID: 4000011112872720, guid: 85a8865d1bf4a63478038fae23776de8, type: 2}
       propertyPath: m_LocalRotation.x
