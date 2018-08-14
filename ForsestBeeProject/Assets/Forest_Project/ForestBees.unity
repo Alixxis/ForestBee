@@ -279,42 +279,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4113523363049220, guid: 28496271937950a42939b53aa93a0ce4,
     type: 2}
   m_PrefabInternal: {fileID: 95074024}
---- !u!137 &95074027 stripped
-SkinnedMeshRenderer:
-  m_PrefabParentObject: {fileID: 137664646762823426, guid: 28496271937950a42939b53aa93a0ce4,
-    type: 2}
-  m_PrefabInternal: {fileID: 95074024}
---- !u!1 &95074028 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1939347293013100, guid: 28496271937950a42939b53aa93a0ce4,
-    type: 2}
-  m_PrefabInternal: {fileID: 95074024}
---- !u!114 &95074029
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 95074028}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d20641bec2f47e4c8e85e6623b3f5e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scene: {fileID: 2110268111}
-  m_MeshRenderer: {fileID: 95074027}
---- !u!114 &95074030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 95074028}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2092c9e2ecd0db746ab324c315e5cdbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Jellyfish: {fileID: 95074028}
-  speed: 0
 --- !u!1001 &176536225
 Prefab:
   m_ObjectHideFlags: 0
@@ -396,42 +360,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4113523363049220, guid: 28496271937950a42939b53aa93a0ce4,
     type: 2}
   m_PrefabInternal: {fileID: 176536225}
---- !u!137 &176536228 stripped
-SkinnedMeshRenderer:
-  m_PrefabParentObject: {fileID: 137664646762823426, guid: 28496271937950a42939b53aa93a0ce4,
-    type: 2}
-  m_PrefabInternal: {fileID: 176536225}
---- !u!1 &176536229 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1939347293013100, guid: 28496271937950a42939b53aa93a0ce4,
-    type: 2}
-  m_PrefabInternal: {fileID: 176536225}
---- !u!114 &176536230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 176536229}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d20641bec2f47e4c8e85e6623b3f5e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scene: {fileID: 2110268111}
-  m_MeshRenderer: {fileID: 176536228}
---- !u!114 &176536231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 176536229}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2092c9e2ecd0db746ab324c315e5cdbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Jellyfish: {fileID: 176536229}
-  speed: 0
 --- !u!1 &184974359
 GameObject:
   m_ObjectHideFlags: 0
@@ -719,42 +647,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4113523363049220, guid: 28496271937950a42939b53aa93a0ce4,
     type: 2}
   m_PrefabInternal: {fileID: 251832269}
---- !u!137 &251832272 stripped
-SkinnedMeshRenderer:
-  m_PrefabParentObject: {fileID: 137664646762823426, guid: 28496271937950a42939b53aa93a0ce4,
-    type: 2}
-  m_PrefabInternal: {fileID: 251832269}
---- !u!1 &251832273 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1939347293013100, guid: 28496271937950a42939b53aa93a0ce4,
-    type: 2}
-  m_PrefabInternal: {fileID: 251832269}
---- !u!114 &251832274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 251832273}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d20641bec2f47e4c8e85e6623b3f5e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scene: {fileID: 2110268111}
-  m_MeshRenderer: {fileID: 251832272}
---- !u!114 &251832275
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 251832273}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2092c9e2ecd0db746ab324c315e5cdbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Jellyfish: {fileID: 251832273}
-  speed: 0
 --- !u!1 &258472123
 GameObject:
   m_ObjectHideFlags: 0
@@ -4270,42 +4162,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4113523363049220, guid: 28496271937950a42939b53aa93a0ce4,
     type: 2}
   m_PrefabInternal: {fileID: 1237970320}
---- !u!137 &1237970323 stripped
-SkinnedMeshRenderer:
-  m_PrefabParentObject: {fileID: 137664646762823426, guid: 28496271937950a42939b53aa93a0ce4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1237970320}
---- !u!1 &1237970324 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1939347293013100, guid: 28496271937950a42939b53aa93a0ce4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1237970320}
---- !u!114 &1237970325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1237970324}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d20641bec2f47e4c8e85e6623b3f5e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scene: {fileID: 2110268111}
-  m_MeshRenderer: {fileID: 1237970323}
---- !u!114 &1237970326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1237970324}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2092c9e2ecd0db746ab324c315e5cdbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Jellyfish: {fileID: 1237970324}
-  speed: 0
 --- !u!4 &1250826873 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4113523363049220, guid: 28496271937950a42939b53aa93a0ce4,
@@ -4574,42 +4430,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4113523363049220, guid: 28496271937950a42939b53aa93a0ce4,
     type: 2}
   m_PrefabInternal: {fileID: 1366659354}
---- !u!137 &1366659357 stripped
-SkinnedMeshRenderer:
-  m_PrefabParentObject: {fileID: 137664646762823426, guid: 28496271937950a42939b53aa93a0ce4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1366659354}
---- !u!1 &1366659358 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1939347293013100, guid: 28496271937950a42939b53aa93a0ce4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1366659354}
---- !u!114 &1366659359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1366659358}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d20641bec2f47e4c8e85e6623b3f5e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scene: {fileID: 2110268111}
-  m_MeshRenderer: {fileID: 1366659357}
---- !u!114 &1366659360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1366659358}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2092c9e2ecd0db746ab324c315e5cdbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Jellyfish: {fileID: 1366659358}
-  speed: 0
 --- !u!4 &1389972478 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4500289944160454, guid: 28496271937950a42939b53aa93a0ce4,
@@ -4851,42 +4671,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4113523363049220, guid: 28496271937950a42939b53aa93a0ce4,
     type: 2}
   m_PrefabInternal: {fileID: 1527509707}
---- !u!137 &1527509710 stripped
-SkinnedMeshRenderer:
-  m_PrefabParentObject: {fileID: 137664646762823426, guid: 28496271937950a42939b53aa93a0ce4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1527509707}
---- !u!1 &1527509711 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1939347293013100, guid: 28496271937950a42939b53aa93a0ce4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1527509707}
---- !u!114 &1527509712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1527509711}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d20641bec2f47e4c8e85e6623b3f5e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scene: {fileID: 2110268111}
-  m_MeshRenderer: {fileID: 1527509710}
---- !u!114 &1527509713
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1527509711}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2092c9e2ecd0db746ab324c315e5cdbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Jellyfish: {fileID: 1527509711}
-  speed: 0
 --- !u!1001 &1554743588
 Prefab:
   m_ObjectHideFlags: 0
@@ -5543,42 +5327,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4113523363049220, guid: 28496271937950a42939b53aa93a0ce4,
     type: 2}
   m_PrefabInternal: {fileID: 1682254643}
---- !u!137 &1682254646 stripped
-SkinnedMeshRenderer:
-  m_PrefabParentObject: {fileID: 137664646762823426, guid: 28496271937950a42939b53aa93a0ce4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1682254643}
---- !u!1 &1682254647 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1939347293013100, guid: 28496271937950a42939b53aa93a0ce4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1682254643}
---- !u!114 &1682254648
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1682254647}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d20641bec2f47e4c8e85e6623b3f5e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scene: {fileID: 2110268111}
-  m_MeshRenderer: {fileID: 1682254646}
---- !u!114 &1682254649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1682254647}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2092c9e2ecd0db746ab324c315e5cdbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Jellyfish: {fileID: 1682254647}
-  speed: 0
 --- !u!1 &1690290849
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,16 +3,29 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Flight : MonoBehaviour {
-	public Transform S1;
-	public Transform T1;
-	public Transform T2;
-	public Transform T3;
-	public Transform T4;
-	public Transform T5;
-	public Transform T6;
+	public Transform Path1;
+	public Transform Path2;
+	public Transform Path3;
+	public Transform Path4;
+    public Transform Path5;
+	public Transform Path6;
+	public Transform Path7;
+    public Transform Path8;
+    public Transform Path9;
+    public Transform Path10;
+    public Transform Path11;
+    public Transform Path12;
+    public Transform Path13;
+    public Transform Path14;
+    public Transform Path15;
+    public Transform Path16;
+    public Transform Path17;
+    public Transform Path18;
+    public Transform Path19;
+    public Transform Path20;
 
 
-void Start()
+    void Start()
 	{
 		//transform.position = startPoint.position;
 
@@ -26,16 +39,16 @@ void Update () {
 
 
 		if (time < 30) {  // time from 0 to 30
-			startPoint = S1;
-			endPoint = T1;
+			startPoint = Path1;
+			endPoint = Path2;
 			t = (time - 0.0f) / 30.0f;  // time - startingtime / duration
 			transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
 		}
 
 		else if (time < 60)  // time from 30 to 60
 		{
-			startPoint = T1;
-			endPoint = T2;
+			startPoint = Path2;
+			endPoint = Path3;
 			t = (time - 30.0f) / 30.0f;
 			transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
 
@@ -43,32 +56,32 @@ void Update () {
 
 		else if (time < 90) // 
 		{
-			startPoint = T2;
-			endPoint = T3;
+			startPoint = Path3;
+			endPoint = Path4;
 			t  = (time - 60.0f) / 30.0f;
 			transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
 		}
 
 		else if (time < 120)
 		{
-			startPoint = T3;
-			endPoint = T4;
+			startPoint = Path4;
+			endPoint = Path5;
 			t  = (time - 90.0f) / 30.0f;
 			transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
 		}
 
 		else if (time < 150)
 		{
-			startPoint = T4;
-			endPoint = T5;
+			startPoint = Path5;
+			endPoint = Path6;
 			t  = (time - 120.0f) / 30.0f;
 			transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
 		}
 
 		else if (time < 180)
 		{
-			startPoint = T5;
-			endPoint = T6;
+			startPoint = Path6;
+			endPoint = Path7;
 			t  = (time - 150.0f) / 30.0f;
 			transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
 		}
