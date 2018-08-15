@@ -10,7 +10,7 @@ public class AppManager : MonoBehaviour
     public List<Transform> spawnPoints = new List<Transform>();
 
     public int redBeeCount = 0;
-    public int maxRedBee = 16;
+    public int maxRedBee = 20;
 
     private void Awake()
     {

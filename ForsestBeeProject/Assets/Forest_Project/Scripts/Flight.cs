@@ -38,80 +38,162 @@ void Update () {
 		float t = time;
 
 
-		if (time < 30) {  // time from 0 to 30
+		if (time < 15) {  // time from 0 to 15
 			startPoint = Path1;
 			endPoint = Path2;
-			t = (time - 0.0f) / 30.0f;  // time - startingtime / duration
+			t = (time - 0.0f) / 15.0f;  // time - startingtime / duration
 			transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
 		}
 
-		else if (time < 60)  // time from 30 to 60
+		else if (time < 30)  // time from 15 to 30
 		{
 			startPoint = Path2;
 			endPoint = Path3;
-			t = (time - 30.0f) / 30.0f;
+			t = (time - 15.0f) / 15.0f;
 			transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
 
 		}
 
-		else if (time < 90) // 
+		else if (time < 45) // 
 		{
 			startPoint = Path3;
 			endPoint = Path4;
-			t  = (time - 60.0f) / 30.0f;
+			t  = (time - 30.0f) / 15.0f;
 			transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
 		}
 
-		else if (time < 120)
+		else if (time < 60)
 		{
 			startPoint = Path4;
 			endPoint = Path5;
-			t  = (time - 90.0f) / 30.0f;
+			t  = (time - 45.0f) / 15.0f;
 			transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
 		}
 
-		else if (time < 150)
+		else if (time < 75)
 		{
 			startPoint = Path5;
 			endPoint = Path6;
-			t  = (time - 120.0f) / 30.0f;
+			t  = (time - 60.0f) / 15.0f;
 			transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
 		}
 
-		else if (time < 180)
+		else if (time < 90)
 		{
 			startPoint = Path6;
 			endPoint = Path7;
-			t  = (time - 150.0f) / 30.0f;
+			t  = (time - 75.0f) / 15.0f;
 			transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
 		}
-	
-	
-	}
+
+        else if (time < 105)
+        {
+            startPoint = Path7;
+            endPoint = Path8;
+            t = (time - 90.0f) / 15.0f;
+            transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
+        }
+
+        else if (time < 120)
+        {
+            startPoint = Path8;
+            endPoint = Path9;
+            t = (time - 105.0f) / 15.0f;
+            transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
+        }
+
+        else if (time < 135)
+        {
+            startPoint = Path9;
+            endPoint = Path10;
+            t = (time - 120.0f) / 15.0f;
+            transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
+        }
+
+        else if (time < 150)
+        {
+            startPoint = Path10;
+            endPoint = Path11;
+            t = (time - 135.0f) / 15.0f;
+            transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
+        }
+
+        else if (time < 165)
+        {
+            startPoint = Path11;
+            endPoint = Path12;
+            t = (time - 150.0f) / 15.0f;
+            transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
+        }
+
+        else if (time < 180)
+        {
+            startPoint = Path12;
+            endPoint = Path13;
+            t = (time - 165.0f) / 15.0f;
+            transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
+        }
+
+        else if (time < 195)
+        {
+            startPoint = Path13;
+            endPoint = Path14;
+            t = (time - 180.0f) / 15.0f;
+            transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
+        }
+
+        else if (time < 210)
+        {
+            startPoint = Path14;
+            endPoint = Path15;
+            t = (time - 195.0f) / 15.0f;
+            transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
+        }
+
+        else if (time < 225)
+        {
+            startPoint = Path15;
+            endPoint = Path16;
+            t = (time - 210.0f) / 15.0f;
+            transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
+        }
+
+        else if (time < 240)
+        {
+            startPoint = Path16;
+            endPoint = Path17;
+            t = (time - 225.0f) / 15.0f;
+            transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
+        }
+
+        else if (time < 255)
+        {
+            startPoint = Path17;
+            endPoint = Path18;
+            t = (time - 240.0f) / 15.0f;
+            transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
+        }
+
+        else if (time < 270)
+        {
+            startPoint = Path18;
+            endPoint = Path19;
+            t = (time - 255.0f) / 15.0f;
+            transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
+        }
+
+        else if (time < 285)
+        {
+            startPoint = Path19;
+            endPoint = Path20;
+            t = (time - 270.0f) / 15.0f;
+            transform.position = (1.0f - t) * startPoint.position + (t) * endPoint.position;
+        }
+
+    }
 
 }
 	
 
-
-
-/*		float t = time;
-
-		//print (Mathf.Abs(transform.position.x - endPoint.transform.position.x));
-
-		if ((Mathf.Abs (transform.position.x - midPoint.transform.position.x) < 0.1) || (Mathf.Abs (transform.position.z - midPoint.transform.position.z) < 0.1) || (Mathf.Abs (transform.position.y - midPoint.transform.position.y) < 0.1)) 
-			
-		{	
-			transform.position = (-1.0f - t) * startPoint.position + (t) * midPoint.position;
-			//transform.forward = -1.0f * startPoint.position + 1.0f * endPoint.position;
-		}
-
-		if ((Mathf.Abs (transform.position.x - endPoint.transform.position.x) > 0.1) || (Mathf.Abs (transform.position.z - endPoint.transform.position.z) > 0.1) || (Mathf.Abs (transform.position.y - endPoint.transform.position.y) > 0.1)) 
-
-		{	
-			transform.position = (1.0f - t) * midPoint.position + (t) * endPoint.position;
-			//transform.forward = -1.0f * startPoint.position + 1.0f * endPoint.position;
-		}
-*/
-	
 
 
