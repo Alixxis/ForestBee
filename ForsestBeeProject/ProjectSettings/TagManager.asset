@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Jellyfish
   - RandomPoint
+  - RedBee
   layers:
   - Default
   - TransparentFX

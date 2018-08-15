@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AppManager : MonoBehaviour
-{
+//public class AppManager : MonoBehaviour
+/*{
     public static AppManager Instance;
     
     public Transform firstredBee;
     public List<Transform> spawnPoints = new List<Transform>();
+    public GameObject RedBee;
 
     public int redBeeCount = 0;
     public int maxRedBee = 20;
@@ -20,7 +21,7 @@ public class AppManager : MonoBehaviour
     }
 
     //This is actually a spwaner script but there's not much in the app
-    /*public void OnRedBeeCreated(RedBee redBee, Vector3 position, Quaternion rotation, Transform parent)
+    public void OnRedBeeCreated(RedBee redBee, Vector3 position, Quaternion rotation, Transform parent)
     {
         if (redBeeCount < maxRedBee)
         {
@@ -34,7 +35,7 @@ public class AppManager : MonoBehaviour
 
         }
 
-    }*/
+    }
 
 }
-
+*/
