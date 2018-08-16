@@ -35,6 +35,7 @@ public class BeeManager : MonoBehaviour
     public void CreateBee(Bee bee,Vector3 position, Quaternion rotation)
     {
         var beeInstance = Instantiate(bee, position, rotation);
+        beeInstance.gameObject.SetActive(true);
     }
 
     //Destroy 
