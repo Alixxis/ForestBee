@@ -1251,6 +1251,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4505641103393420}
   - component: {fileID: 95330701427600736}
+  - component: {fileID: 114534026953816608}
   m_Layer: 0
   m_Name: Polygonal Giant Bee Blue
   m_TagString: Untagged
@@ -3161,6 +3162,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114534026953816608
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1690858186917078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf9976ddb8aac104b87531fa9bce650c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!137 &137599611733093020
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -3170,6 +3182,7 @@ SkinnedMeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3185,6 +3198,7 @@ SkinnedMeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
