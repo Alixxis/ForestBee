@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using System.Collections.Generic;
 
 /// <summary>
 /// The BeeManager manags the live cycle of bees
@@ -10,10 +11,16 @@ public class BeeManager : MonoBehaviour
 
     public Bee m_BeeBluePrefab;
 
+    public Transform firstBlueBee;  //testing
+    public List<Transform> spawnPoints = new List<Transform>(); //testing
+
     private void Awake()
     {
         //Subscribe BeeHit method to OnBeeHit event that gets called by Bee
         OnBeeHit += BeeHit;
+
+        firstBlueBee.transform.position = spawnPoints[0].position; //testing
+        firstBlueBee.transform.rotation = spawnPoints[0].rotation; //testing
     }
 
     private void OnDestroy()
