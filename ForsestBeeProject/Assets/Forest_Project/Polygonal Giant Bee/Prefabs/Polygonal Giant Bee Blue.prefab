@@ -1252,6 +1252,7 @@ GameObject:
   - component: {fileID: 4505641103393420}
   - component: {fileID: 95330701427600736}
   - component: {fileID: 114534026953816608}
+  - component: {fileID: 114541050585028900}
   m_Layer: 0
   m_Name: Polygonal Giant Bee Blue
   m_TagString: Untagged
@@ -3173,6 +3174,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf9976ddb8aac104b87531fa9bce650c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Flight: {fileID: 114541050585028900}
+  beeName: 
+  beeColor: {r: 1, g: 0, b: 0, a: 1}
+--- !u!114 &114541050585028900
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1690858186917078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c82ddde1768ca724aa630ddb162d1d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paths: []
+  m_FlightData:
+    currentIndex: 0
+    startTime: 0
+    targetPosition: {x: 0, y: 0, z: 0}
+  updateInterval: 5
+  distBeforeRecalculation: 0.1
+  speed: 1
 --- !u!137 &137599611733093020
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

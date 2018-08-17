@@ -222,6 +222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf9976ddb8aac104b87531fa9bce650c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Flight: {fileID: 0}
   beeName: 
   beeColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &15519335
@@ -256,26 +257,13 @@ MonoBehaviour:
   - {fileID: 833622378}
   - {fileID: 184974360}
   - {fileID: 1587795317}
-  Path1: {fileID: 468458420}
-  Path2: {fileID: 212447884}
-  Path3: {fileID: 834978520}
-  Path4: {fileID: 563406879}
-  Path5: {fileID: 1032570563}
-  Path6: {fileID: 1690290850}
-  Path7: {fileID: 591142933}
-  Path8: {fileID: 1867097916}
-  Path9: {fileID: 1511949310}
-  Path10: {fileID: 982334038}
-  Path11: {fileID: 1362120122}
-  Path12: {fileID: 1944210562}
-  Path13: {fileID: 1006323170}
-  Path14: {fileID: 1761056057}
-  Path15: {fileID: 2098542447}
-  Path16: {fileID: 1665901044}
-  Path17: {fileID: 1903721055}
-  Path18: {fileID: 833622378}
-  Path19: {fileID: 184974360}
-  Path20: {fileID: 1587795317}
+  m_FlightData:
+    currentIndex: 0
+    startTime: 0
+    targetPosition: {x: 0, y: 0, z: 0}
+  updateInterval: 5
+  distBeforeRecalculation: 0.1
+  speed: 1
 --- !u!136 &15519336
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -398,6 +386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf9976ddb8aac104b87531fa9bce650c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Flight: {fileID: 0}
   beeName: 
   beeColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &41636304
@@ -432,26 +421,13 @@ MonoBehaviour:
   - {fileID: 834978520}
   - {fileID: 563406879}
   - {fileID: 1032570563}
-  Path1: {fileID: 1690290850}
-  Path2: {fileID: 591142933}
-  Path3: {fileID: 1867097916}
-  Path4: {fileID: 1511949310}
-  Path5: {fileID: 982334038}
-  Path6: {fileID: 1362120122}
-  Path7: {fileID: 1944210562}
-  Path8: {fileID: 1006323170}
-  Path9: {fileID: 1761056057}
-  Path10: {fileID: 2098542447}
-  Path11: {fileID: 1665901044}
-  Path12: {fileID: 1903721055}
-  Path13: {fileID: 833622378}
-  Path14: {fileID: 184974360}
-  Path15: {fileID: 1587795317}
-  Path16: {fileID: 468458420}
-  Path17: {fileID: 212447884}
-  Path18: {fileID: 834978520}
-  Path19: {fileID: 563406879}
-  Path20: {fileID: 1032570563}
+  m_FlightData:
+    currentIndex: 0
+    startTime: 0
+    targetPosition: {x: 0, y: 0, z: 0}
+  updateInterval: 5
+  distBeforeRecalculation: 0.1
+  speed: 1
 --- !u!136 &41636305
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -862,6 +838,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf9976ddb8aac104b87531fa9bce650c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Flight: {fileID: 0}
   beeName: 
   beeColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &51540371
@@ -896,26 +873,13 @@ MonoBehaviour:
   - {fileID: 1587795317}
   - {fileID: 468458420}
   - {fileID: 212447884}
-  Path1: {fileID: 834978520}
-  Path2: {fileID: 563406879}
-  Path3: {fileID: 1032570563}
-  Path4: {fileID: 1690290850}
-  Path5: {fileID: 591142933}
-  Path6: {fileID: 1867097916}
-  Path7: {fileID: 1511949310}
-  Path8: {fileID: 982334038}
-  Path9: {fileID: 1362120122}
-  Path10: {fileID: 1944210562}
-  Path11: {fileID: 1006323170}
-  Path12: {fileID: 1761056057}
-  Path13: {fileID: 2098542447}
-  Path14: {fileID: 1665901044}
-  Path15: {fileID: 1903721055}
-  Path16: {fileID: 833622378}
-  Path17: {fileID: 184974360}
-  Path18: {fileID: 1587795317}
-  Path19: {fileID: 468458420}
-  Path20: {fileID: 212447884}
+  m_FlightData:
+    currentIndex: 0
+    startTime: 0
+    targetPosition: {x: 0, y: 0, z: 0}
+  updateInterval: 5
+  distBeforeRecalculation: 0.1
+  speed: 1
 --- !u!136 &51540372
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -945,6 +909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf9976ddb8aac104b87531fa9bce650c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Flight: {fileID: 0}
   beeName: 
   beeColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &65000529
@@ -979,26 +944,13 @@ MonoBehaviour:
   - {fileID: 1903721055}
   - {fileID: 833622378}
   - {fileID: 184974360}
-  Path1: {fileID: 1587795317}
-  Path2: {fileID: 468458420}
-  Path3: {fileID: 212447884}
-  Path4: {fileID: 834978520}
-  Path5: {fileID: 563406879}
-  Path6: {fileID: 1032570563}
-  Path7: {fileID: 1690290850}
-  Path8: {fileID: 591142933}
-  Path9: {fileID: 1867097916}
-  Path10: {fileID: 1511949310}
-  Path11: {fileID: 982334038}
-  Path12: {fileID: 1362120122}
-  Path13: {fileID: 1944210562}
-  Path14: {fileID: 1006323170}
-  Path15: {fileID: 1761056057}
-  Path16: {fileID: 2098542447}
-  Path17: {fileID: 1665901044}
-  Path18: {fileID: 1903721055}
-  Path19: {fileID: 833622378}
-  Path20: {fileID: 184974360}
+  m_FlightData:
+    currentIndex: 0
+    startTime: 0
+    targetPosition: {x: 0, y: 0, z: 0}
+  updateInterval: 5
+  distBeforeRecalculation: 0.1
+  speed: 1
 --- !u!136 &65000530
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1028,6 +980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf9976ddb8aac104b87531fa9bce650c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Flight: {fileID: 0}
   beeName: 
   beeColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &71172600
@@ -1062,26 +1015,13 @@ MonoBehaviour:
   - {fileID: 1944210562}
   - {fileID: 1006323170}
   - {fileID: 1761056057}
-  Path1: {fileID: 2098542447}
-  Path2: {fileID: 1665901044}
-  Path3: {fileID: 1903721055}
-  Path4: {fileID: 833622378}
-  Path5: {fileID: 184974360}
-  Path6: {fileID: 1587795317}
-  Path7: {fileID: 468458420}
-  Path8: {fileID: 212447884}
-  Path9: {fileID: 834978520}
-  Path10: {fileID: 563406879}
-  Path11: {fileID: 1032570563}
-  Path12: {fileID: 1690290850}
-  Path13: {fileID: 591142933}
-  Path14: {fileID: 1867097916}
-  Path15: {fileID: 1511949310}
-  Path16: {fileID: 982334038}
-  Path17: {fileID: 1362120122}
-  Path18: {fileID: 1944210562}
-  Path19: {fileID: 1006323170}
-  Path20: {fileID: 1761056057}
+  m_FlightData:
+    currentIndex: 0
+    startTime: 0
+    targetPosition: {x: 0, y: 0, z: 0}
+  updateInterval: 5
+  distBeforeRecalculation: 0.1
+  speed: 1
 --- !u!136 &71172601
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1111,6 +1051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf9976ddb8aac104b87531fa9bce650c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Flight: {fileID: 0}
   beeName: 
   beeColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &74102655
@@ -1145,26 +1086,13 @@ MonoBehaviour:
   - {fileID: 1665901044}
   - {fileID: 1903721055}
   - {fileID: 833622378}
-  Path1: {fileID: 184974360}
-  Path2: {fileID: 1587795317}
-  Path3: {fileID: 468458420}
-  Path4: {fileID: 212447884}
-  Path5: {fileID: 834978520}
-  Path6: {fileID: 563406879}
-  Path7: {fileID: 1032570563}
-  Path8: {fileID: 1690290850}
-  Path9: {fileID: 591142933}
-  Path10: {fileID: 1867097916}
-  Path11: {fileID: 1511949310}
-  Path12: {fileID: 982334038}
-  Path13: {fileID: 1362120122}
-  Path14: {fileID: 1944210562}
-  Path15: {fileID: 1006323170}
-  Path16: {fileID: 1761056057}
-  Path17: {fileID: 2098542447}
-  Path18: {fileID: 1665901044}
-  Path19: {fileID: 1903721055}
-  Path20: {fileID: 833622378}
+  m_FlightData:
+    currentIndex: 0
+    startTime: 0
+    targetPosition: {x: 0, y: 0, z: 0}
+  updateInterval: 5
+  distBeforeRecalculation: 0.1
+  speed: 1
 --- !u!136 &74102656
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1194,6 +1122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf9976ddb8aac104b87531fa9bce650c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Flight: {fileID: 0}
   beeName: 
   beeColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &98858786
@@ -1228,26 +1157,13 @@ MonoBehaviour:
   - {fileID: 1511949310}
   - {fileID: 982334038}
   - {fileID: 1362120122}
-  Path1: {fileID: 1944210562}
-  Path2: {fileID: 1006323170}
-  Path3: {fileID: 1761056057}
-  Path4: {fileID: 2098542447}
-  Path5: {fileID: 1665901044}
-  Path6: {fileID: 1903721055}
-  Path7: {fileID: 833622378}
-  Path8: {fileID: 184974360}
-  Path9: {fileID: 1587795317}
-  Path10: {fileID: 468458420}
-  Path11: {fileID: 212447884}
-  Path12: {fileID: 834978520}
-  Path13: {fileID: 563406879}
-  Path14: {fileID: 1032570563}
-  Path15: {fileID: 1690290850}
-  Path16: {fileID: 591142933}
-  Path17: {fileID: 1867097916}
-  Path18: {fileID: 1511949310}
-  Path19: {fileID: 982334038}
-  Path20: {fileID: 1362120122}
+  m_FlightData:
+    currentIndex: 0
+    startTime: 0
+    targetPosition: {x: 0, y: 0, z: 0}
+  updateInterval: 5
+  distBeforeRecalculation: 0.1
+  speed: 1
 --- !u!136 &98858787
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1779,7 +1695,6 @@ Transform:
   - {fileID: 1787273511}
   - {fileID: 1196418616}
   - {fileID: 44894656}
-  - {fileID: 1655868827}
   m_Father: {fileID: 2110268112}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2211,6 +2126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf9976ddb8aac104b87531fa9bce650c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Flight: {fileID: 0}
   beeName: 
   beeColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &281559006
@@ -2245,26 +2161,13 @@ MonoBehaviour:
   - {fileID: 982334038}
   - {fileID: 1362120122}
   - {fileID: 1944210562}
-  Path1: {fileID: 1006323170}
-  Path2: {fileID: 1761056057}
-  Path3: {fileID: 2098542447}
-  Path4: {fileID: 1665901044}
-  Path5: {fileID: 1903721055}
-  Path6: {fileID: 833622378}
-  Path7: {fileID: 184974360}
-  Path8: {fileID: 1587795317}
-  Path9: {fileID: 468458420}
-  Path10: {fileID: 212447884}
-  Path11: {fileID: 834978520}
-  Path12: {fileID: 563406879}
-  Path13: {fileID: 1032570563}
-  Path14: {fileID: 1690290850}
-  Path15: {fileID: 591142933}
-  Path16: {fileID: 1867097916}
-  Path17: {fileID: 1511949310}
-  Path18: {fileID: 982334038}
-  Path19: {fileID: 1362120122}
-  Path20: {fileID: 1944210562}
+  m_FlightData:
+    currentIndex: 0
+    startTime: 0
+    targetPosition: {x: 0, y: 0, z: 0}
+  updateInterval: 5
+  distBeforeRecalculation: 0.1
+  speed: 1
 --- !u!136 &281559007
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3666,6 +3569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf9976ddb8aac104b87531fa9bce650c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Flight: {fileID: 0}
   beeName: 
   beeColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!136 &491907491
@@ -3713,26 +3617,13 @@ MonoBehaviour:
   - {fileID: 1032570563}
   - {fileID: 1690290850}
   - {fileID: 591142933}
-  Path1: {fileID: 1867097916}
-  Path2: {fileID: 1511949310}
-  Path3: {fileID: 982334038}
-  Path4: {fileID: 1362120122}
-  Path5: {fileID: 1944210562}
-  Path6: {fileID: 1006323170}
-  Path7: {fileID: 1761056057}
-  Path8: {fileID: 2098542447}
-  Path9: {fileID: 1665901044}
-  Path10: {fileID: 1903721055}
-  Path11: {fileID: 833622378}
-  Path12: {fileID: 184974360}
-  Path13: {fileID: 1587795317}
-  Path14: {fileID: 468458420}
-  Path15: {fileID: 212447884}
-  Path16: {fileID: 834978520}
-  Path17: {fileID: 563406879}
-  Path18: {fileID: 1032570563}
-  Path19: {fileID: 1690290850}
-  Path20: {fileID: 591142933}
+  m_FlightData:
+    currentIndex: 0
+    startTime: 0
+    targetPosition: {x: 0, y: 0, z: 0}
+  updateInterval: 5
+  distBeforeRecalculation: 0.1
+  speed: 1
 --- !u!1001 &497789588
 Prefab:
   m_ObjectHideFlags: 0
@@ -4749,6 +4640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf9976ddb8aac104b87531fa9bce650c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Flight: {fileID: 0}
   beeName: 
   beeColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &666350988
@@ -4783,26 +4675,13 @@ MonoBehaviour:
   - {fileID: 1006323170}
   - {fileID: 1761056057}
   - {fileID: 2098542447}
-  Path1: {fileID: 1665901044}
-  Path2: {fileID: 1903721055}
-  Path3: {fileID: 833622378}
-  Path4: {fileID: 184974360}
-  Path5: {fileID: 1587795317}
-  Path6: {fileID: 468458420}
-  Path7: {fileID: 212447884}
-  Path8: {fileID: 834978520}
-  Path9: {fileID: 563406879}
-  Path10: {fileID: 1032570563}
-  Path11: {fileID: 1690290850}
-  Path12: {fileID: 591142933}
-  Path13: {fileID: 1867097916}
-  Path14: {fileID: 1511949310}
-  Path15: {fileID: 982334038}
-  Path16: {fileID: 1362120122}
-  Path17: {fileID: 1944210562}
-  Path18: {fileID: 1006323170}
-  Path19: {fileID: 1761056057}
-  Path20: {fileID: 2098542447}
+  m_FlightData:
+    currentIndex: 0
+    startTime: 0
+    targetPosition: {x: 0, y: 0, z: 0}
+  updateInterval: 5
+  distBeforeRecalculation: 0.1
+  speed: 1
 --- !u!136 &666350989
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5487,6 +5366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf9976ddb8aac104b87531fa9bce650c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Flight: {fileID: 0}
   beeName: 
   beeColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &718235396
@@ -5521,26 +5401,13 @@ MonoBehaviour:
   - {fileID: 591142933}
   - {fileID: 1867097916}
   - {fileID: 1511949310}
-  Path1: {fileID: 982334038}
-  Path2: {fileID: 1362120122}
-  Path3: {fileID: 1944210562}
-  Path4: {fileID: 1006323170}
-  Path5: {fileID: 1761056057}
-  Path6: {fileID: 2098542447}
-  Path7: {fileID: 1665901044}
-  Path8: {fileID: 1903721055}
-  Path9: {fileID: 833622378}
-  Path10: {fileID: 184974360}
-  Path11: {fileID: 1587795317}
-  Path12: {fileID: 468458420}
-  Path13: {fileID: 212447884}
-  Path14: {fileID: 834978520}
-  Path15: {fileID: 563406879}
-  Path16: {fileID: 1032570563}
-  Path17: {fileID: 1690290850}
-  Path18: {fileID: 591142933}
-  Path19: {fileID: 1867097916}
-  Path20: {fileID: 1511949310}
+  m_FlightData:
+    currentIndex: 0
+    startTime: 0
+    targetPosition: {x: 0, y: 0, z: 0}
+  updateInterval: 5
+  distBeforeRecalculation: 0.1
+  speed: 1
 --- !u!136 &718235397
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6440,99 +6307,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 29b30e0a1c1f9ad4cbb7a4c6baed54f7, type: 2}
   m_IsPrefabParent: 0
---- !u!1001 &916503349
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1655868827}
-    m_Modifications:
-    - target: {fileID: 4000012832170722, guid: 96b2ec0239d11fa4b9792311efceb8ed, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0.119
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012832170722, guid: 96b2ec0239d11fa4b9792311efceb8ed, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.621
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012832170722, guid: 96b2ec0239d11fa4b9792311efceb8ed, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0.187
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012832170722, guid: 96b2ec0239d11fa4b9792311efceb8ed, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0.06425166
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012832170722, guid: 96b2ec0239d11fa4b9792311efceb8ed, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0.99597937
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012832170722, guid: 96b2ec0239d11fa4b9792311efceb8ed, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0.015853822
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012832170722, guid: 96b2ec0239d11fa4b9792311efceb8ed, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: -0.06037797
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012832170722, guid: 96b2ec0239d11fa4b9792311efceb8ed, type: 2}
-      propertyPath: m_RootOrder
-      value: 55
-      objectReference: {fileID: 0}
-    - target: {fileID: 198000012283690144, guid: 96b2ec0239d11fa4b9792311efceb8ed,
-        type: 2}
-      propertyPath: randomSeed
-      value: -1672864177
-      objectReference: {fileID: 0}
-    - target: {fileID: 198000012283690144, guid: 96b2ec0239d11fa4b9792311efceb8ed,
-        type: 2}
-      propertyPath: CollisionModule.enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012832170722, guid: 96b2ec0239d11fa4b9792311efceb8ed, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 230.769
-      objectReference: {fileID: 0}
-    - target: {fileID: 198000012283690144, guid: 96b2ec0239d11fa4b9792311efceb8ed,
-        type: 2}
-      propertyPath: simulationSpeed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198000012283690144, guid: 96b2ec0239d11fa4b9792311efceb8ed,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198000012283690144, guid: 96b2ec0239d11fa4b9792311efceb8ed,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxColor.g
-      value: 0.57012886
-      objectReference: {fileID: 0}
-    - target: {fileID: 198000012283690144, guid: 96b2ec0239d11fa4b9792311efceb8ed,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxColor.b
-      value: 0.00746108
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012832170722, guid: 96b2ec0239d11fa4b9792311efceb8ed, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012832170722, guid: 96b2ec0239d11fa4b9792311efceb8ed, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012832170722, guid: 96b2ec0239d11fa4b9792311efceb8ed, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198000012283690144, guid: 96b2ec0239d11fa4b9792311efceb8ed,
-        type: 2}
-      propertyPath: InitialModule.maxNumParticles
-      value: 500
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 96b2ec0239d11fa4b9792311efceb8ed, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1001 &940145594
 Prefab:
   m_ObjectHideFlags: 0
@@ -6625,69 +6399,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4000011112872720, guid: 85a8865d1bf4a63478038fae23776de8,
     type: 2}
   m_PrefabInternal: {fileID: 940145594}
---- !u!1 &940305233 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1939347293013100, guid: 28496271937950a42939b53aa93a0ce4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1655868826}
---- !u!114 &940305234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 940305233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf9976ddb8aac104b87531fa9bce650c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  beeName: 
-  beeColor: {r: 1, g: 0, b: 0, a: 1}
---- !u!114 &940305235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 940305233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c82ddde1768ca724aa630ddb162d1d60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  paths: []
-  Path1: {fileID: 591142933}
-  Path2: {fileID: 1867097916}
-  Path3: {fileID: 1511949310}
-  Path4: {fileID: 982334038}
-  Path5: {fileID: 1362120122}
-  Path6: {fileID: 1944210562}
-  Path7: {fileID: 1006323170}
-  Path8: {fileID: 1761056057}
-  Path9: {fileID: 2098542447}
-  Path10: {fileID: 1665901044}
-  Path11: {fileID: 1903721055}
-  Path12: {fileID: 833622378}
-  Path13: {fileID: 184974360}
-  Path14: {fileID: 1587795317}
-  Path15: {fileID: 468458420}
-  Path16: {fileID: 212447884}
-  Path17: {fileID: 834978520}
-  Path18: {fileID: 563406879}
-  Path19: {fileID: 1032570563}
-  Path20: {fileID: 1690290850}
---- !u!136 &940305236
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 940305233}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.78
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942370622
 GameObject:
   m_ObjectHideFlags: 0
@@ -8616,6 +8327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf9976ddb8aac104b87531fa9bce650c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Flight: {fileID: 0}
   beeName: 
   beeColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &1262707760
@@ -8650,26 +8362,13 @@ MonoBehaviour:
   - {fileID: 1690290850}
   - {fileID: 591142933}
   - {fileID: 1867097916}
-  Path1: {fileID: 1511949310}
-  Path2: {fileID: 982334038}
-  Path3: {fileID: 1362120122}
-  Path4: {fileID: 1944210562}
-  Path5: {fileID: 1006323170}
-  Path6: {fileID: 1761056057}
-  Path7: {fileID: 2098542447}
-  Path8: {fileID: 1665901044}
-  Path9: {fileID: 1903721055}
-  Path10: {fileID: 833622378}
-  Path11: {fileID: 184974360}
-  Path12: {fileID: 1587795317}
-  Path13: {fileID: 468458420}
-  Path14: {fileID: 212447884}
-  Path15: {fileID: 834978520}
-  Path16: {fileID: 563406879}
-  Path17: {fileID: 1032570563}
-  Path18: {fileID: 1690290850}
-  Path19: {fileID: 591142933}
-  Path20: {fileID: 1867097916}
+  m_FlightData:
+    currentIndex: 0
+    startTime: 0
+    targetPosition: {x: 0, y: 0, z: 0}
+  updateInterval: 5
+  distBeforeRecalculation: 0.1
+  speed: 1
 --- !u!136 &1262707761
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8792,6 +8491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf9976ddb8aac104b87531fa9bce650c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Flight: {fileID: 0}
   beeName: 
   beeColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &1355796910
@@ -8826,26 +8526,13 @@ MonoBehaviour:
   - {fileID: 2098542447}
   - {fileID: 1665901044}
   - {fileID: 1903721055}
-  Path1: {fileID: 833622378}
-  Path2: {fileID: 184974360}
-  Path3: {fileID: 1587795317}
-  Path4: {fileID: 468458420}
-  Path5: {fileID: 212447884}
-  Path6: {fileID: 834978520}
-  Path7: {fileID: 563406879}
-  Path8: {fileID: 1032570563}
-  Path9: {fileID: 1690290850}
-  Path10: {fileID: 591142933}
-  Path11: {fileID: 1867097916}
-  Path12: {fileID: 1511949310}
-  Path13: {fileID: 982334038}
-  Path14: {fileID: 1362120122}
-  Path15: {fileID: 1944210562}
-  Path16: {fileID: 1006323170}
-  Path17: {fileID: 1761056057}
-  Path18: {fileID: 2098542447}
-  Path19: {fileID: 1665901044}
-  Path20: {fileID: 1903721055}
+  m_FlightData:
+    currentIndex: 0
+    startTime: 0
+    targetPosition: {x: 0, y: 0, z: 0}
+  updateInterval: 5
+  distBeforeRecalculation: 0.1
+  speed: 1
 --- !u!136 &1355796911
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9720,6 +9407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf9976ddb8aac104b87531fa9bce650c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Flight: {fileID: 0}
   beeName: 
   beeColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &1495617524
@@ -9754,26 +9442,13 @@ MonoBehaviour:
   - {fileID: 212447884}
   - {fileID: 834978520}
   - {fileID: 563406879}
-  Path1: {fileID: 1032570563}
-  Path2: {fileID: 1690290850}
-  Path3: {fileID: 591142933}
-  Path4: {fileID: 1867097916}
-  Path5: {fileID: 1511949310}
-  Path6: {fileID: 982334038}
-  Path7: {fileID: 1362120122}
-  Path8: {fileID: 1944210562}
-  Path9: {fileID: 1006323170}
-  Path10: {fileID: 1761056057}
-  Path11: {fileID: 2098542447}
-  Path12: {fileID: 1665901044}
-  Path13: {fileID: 1903721055}
-  Path14: {fileID: 833622378}
-  Path15: {fileID: 184974360}
-  Path16: {fileID: 1587795317}
-  Path17: {fileID: 468458420}
-  Path18: {fileID: 212447884}
-  Path19: {fileID: 834978520}
-  Path20: {fileID: 563406879}
+  m_FlightData:
+    currentIndex: 0
+    startTime: 0
+    targetPosition: {x: 0, y: 0, z: 0}
+  updateInterval: 5
+  distBeforeRecalculation: 0.1
+  speed: 1
 --- !u!136 &1495617525
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10065,6 +9740,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf9976ddb8aac104b87531fa9bce650c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Flight: {fileID: 0}
   beeName: 
   beeColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &1565232807
@@ -10099,26 +9775,13 @@ MonoBehaviour:
   - {fileID: 1867097916}
   - {fileID: 1511949310}
   - {fileID: 982334038}
-  Path1: {fileID: 1362120122}
-  Path2: {fileID: 1944210562}
-  Path3: {fileID: 1006323170}
-  Path4: {fileID: 1761056057}
-  Path5: {fileID: 2098542447}
-  Path6: {fileID: 1665901044}
-  Path7: {fileID: 1903721055}
-  Path8: {fileID: 833622378}
-  Path9: {fileID: 184974360}
-  Path10: {fileID: 1587795317}
-  Path11: {fileID: 468458420}
-  Path12: {fileID: 212447884}
-  Path13: {fileID: 834978520}
-  Path14: {fileID: 563406879}
-  Path15: {fileID: 1032570563}
-  Path16: {fileID: 1690290850}
-  Path17: {fileID: 591142933}
-  Path18: {fileID: 1867097916}
-  Path19: {fileID: 1511949310}
-  Path20: {fileID: 982334038}
+  m_FlightData:
+    currentIndex: 0
+    startTime: 0
+    targetPosition: {x: 0, y: 0, z: 0}
+  updateInterval: 5
+  distBeforeRecalculation: 0.1
+  speed: 1
 --- !u!136 &1565232808
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10161,6 +9824,91 @@ Transform:
   m_Father: {fileID: 743512859}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1568893172 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1690858186917078, guid: 37ea23c777f9b284393e051d2860c003,
+    type: 2}
+  m_PrefabInternal: {fileID: 1704874591}
+--- !u!82 &1568893173
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1568893172}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 135c4f1217b9f8c418937f2ec0f6a207, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1 &1587795316
 GameObject:
   m_ObjectHideFlags: 0
@@ -10875,302 +10623,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4500289944160454, guid: 28496271937950a42939b53aa93a0ce4,
     type: 2}
   m_PrefabInternal: {fileID: 1644699332}
---- !u!1001 &1655868826
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 210911649}
-    m_Modifications:
-    - target: {fileID: 4500289944160454, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 8.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 4500289944160454, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -1.76
-      objectReference: {fileID: 0}
-    - target: {fileID: 4500289944160454, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -16.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 4500289944160454, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0.591949
-      objectReference: {fileID: 0}
-    - target: {fileID: 4500289944160454, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0.38677698
-      objectReference: {fileID: 0}
-    - target: {fileID: 4500289944160454, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0.59194887
-      objectReference: {fileID: 0}
-    - target: {fileID: 4500289944160454, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: -0.3867771
-      objectReference: {fileID: 0}
-    - target: {fileID: 4500289944160454, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 19
-      objectReference: {fileID: 0}
-    - target: {fileID: 4500289944160454, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 1.365
-      objectReference: {fileID: 0}
-    - target: {fileID: 4500289944160454, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 43.742
-      objectReference: {fileID: 0}
-    - target: {fileID: 4500289944160454, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -7.4660006
-      objectReference: {fileID: 0}
-    - target: {fileID: 95442908817366298, guid: 28496271937950a42939b53aa93a0ce4,
-        type: 2}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 665dbc548a8fb44448b1ab2386c0e1ca, type: 2}
-    - target: {fileID: 4500289944160454, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.9999999
-      objectReference: {fileID: 0}
-    - target: {fileID: 1939347293013100, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_Name
-      value: RedBee20
-      objectReference: {fileID: 0}
-    - target: {fileID: 4217451972315842, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 4936388005532762, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 54
-      objectReference: {fileID: 0}
-    - target: {fileID: 4472745324305816, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 32
-      objectReference: {fileID: 0}
-    - target: {fileID: 4233604616435810, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 4447372130603934, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 44
-      objectReference: {fileID: 0}
-    - target: {fileID: 4405485397266548, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 34
-      objectReference: {fileID: 0}
-    - target: {fileID: 4114142145055040, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4676957861588112, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 53
-      objectReference: {fileID: 0}
-    - target: {fileID: 4145289039642092, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 22
-      objectReference: {fileID: 0}
-    - target: {fileID: 4710461452428472, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 29
-      objectReference: {fileID: 0}
-    - target: {fileID: 4045138077818754, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 37
-      objectReference: {fileID: 0}
-    - target: {fileID: 4050688472251208, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 31
-      objectReference: {fileID: 0}
-    - target: {fileID: 4183075016542516, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 39
-      objectReference: {fileID: 0}
-    - target: {fileID: 4145273594591246, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4826529997630174, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 48
-      objectReference: {fileID: 0}
-    - target: {fileID: 4953966954322668, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 4878859707839878, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4403623824497648, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 4883095038034722, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 23
-      objectReference: {fileID: 0}
-    - target: {fileID: 4876670868807544, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4072597827765494, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 4863971846375006, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4378906118152346, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 4695013119518118, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 43
-      objectReference: {fileID: 0}
-    - target: {fileID: 4180808931720000, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4301291065492172, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 19
-      objectReference: {fileID: 0}
-    - target: {fileID: 4866392502758184, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 24
-      objectReference: {fileID: 0}
-    - target: {fileID: 4352761290597162, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 4898851770781732, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 38
-      objectReference: {fileID: 0}
-    - target: {fileID: 4116113048207488, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 4403303225388740, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 51
-      objectReference: {fileID: 0}
-    - target: {fileID: 4423817327502404, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 35
-      objectReference: {fileID: 0}
-    - target: {fileID: 4233291025797582, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 52
-      objectReference: {fileID: 0}
-    - target: {fileID: 4654243457958948, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4994784757215402, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 26
-      objectReference: {fileID: 0}
-    - target: {fileID: 4264345806534400, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 4965223423714232, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4958253094601780, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 41
-      objectReference: {fileID: 0}
-    - target: {fileID: 4489758496653184, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 4736008692585706, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 4511607953075746, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 47
-      objectReference: {fileID: 0}
-    - target: {fileID: 4467433243504480, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 27
-      objectReference: {fileID: 0}
-    - target: {fileID: 4613768641130756, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 28
-      objectReference: {fileID: 0}
-    - target: {fileID: 4075638159195972, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4638746236925068, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 49
-      objectReference: {fileID: 0}
-    - target: {fileID: 4113523363049220, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4787796758026296, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533700817582686, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4341655632577018, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 4501706380184106, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 4320637354411682, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 4748870861618064, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 33
-      objectReference: {fileID: 0}
-    - target: {fileID: 4934653295572422, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 42
-      objectReference: {fileID: 0}
-    - target: {fileID: 4092790735829234, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 4168470060691434, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_RootOrder
-      value: 46
-      objectReference: {fileID: 0}
-    - target: {fileID: 1939347293013100, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 28496271937950a42939b53aa93a0ce4, type: 2}
-  m_IsPrefabParent: 0
---- !u!4 &1655868827 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4500289944160454, guid: 28496271937950a42939b53aa93a0ce4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1655868826}
 --- !u!1001 &1660793688
 Prefab:
   m_ObjectHideFlags: 0
@@ -13311,6 +12763,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf9976ddb8aac104b87531fa9bce650c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Flight: {fileID: 0}
   beeName: 
   beeColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &1896165512
@@ -13345,26 +12798,13 @@ MonoBehaviour:
   - {fileID: 1761056057}
   - {fileID: 2098542447}
   - {fileID: 1665901044}
-  Path1: {fileID: 1903721055}
-  Path2: {fileID: 833622378}
-  Path3: {fileID: 184974360}
-  Path4: {fileID: 1587795317}
-  Path5: {fileID: 468458420}
-  Path6: {fileID: 212447884}
-  Path7: {fileID: 834978520}
-  Path8: {fileID: 563406879}
-  Path9: {fileID: 1032570563}
-  Path10: {fileID: 1690290850}
-  Path11: {fileID: 591142933}
-  Path12: {fileID: 1867097916}
-  Path13: {fileID: 1511949310}
-  Path14: {fileID: 982334038}
-  Path15: {fileID: 1362120122}
-  Path16: {fileID: 1944210562}
-  Path17: {fileID: 1006323170}
-  Path18: {fileID: 1761056057}
-  Path19: {fileID: 2098542447}
-  Path20: {fileID: 1665901044}
+  m_FlightData:
+    currentIndex: 0
+    startTime: 0
+    targetPosition: {x: 0, y: 0, z: 0}
+  updateInterval: 5
+  distBeforeRecalculation: 0.1
+  speed: 1
 --- !u!136 &1896165513
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -13951,6 +13391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf9976ddb8aac104b87531fa9bce650c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Flight: {fileID: 0}
   beeName: 
   beeColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &2026053326
@@ -13985,26 +13426,13 @@ MonoBehaviour:
   - {fileID: 184974360}
   - {fileID: 1587795317}
   - {fileID: 468458420}
-  Path1: {fileID: 212447884}
-  Path2: {fileID: 834978520}
-  Path3: {fileID: 563406879}
-  Path4: {fileID: 1032570563}
-  Path5: {fileID: 1690290850}
-  Path6: {fileID: 591142933}
-  Path7: {fileID: 1867097916}
-  Path8: {fileID: 1511949310}
-  Path9: {fileID: 982334038}
-  Path10: {fileID: 1362120122}
-  Path11: {fileID: 1944210562}
-  Path12: {fileID: 1006323170}
-  Path13: {fileID: 1761056057}
-  Path14: {fileID: 2098542447}
-  Path15: {fileID: 1665901044}
-  Path16: {fileID: 1903721055}
-  Path17: {fileID: 833622378}
-  Path18: {fileID: 184974360}
-  Path19: {fileID: 1587795317}
-  Path20: {fileID: 468458420}
+  m_FlightData:
+    currentIndex: 0
+    startTime: 0
+    targetPosition: {x: 0, y: 0, z: 0}
+  updateInterval: 5
+  distBeforeRecalculation: 0.1
+  speed: 1
 --- !u!136 &2026053327
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -14080,7 +13508,7 @@ MonoBehaviour:
   - {fileID: 1787273511}
   - {fileID: 1196418616}
   - {fileID: 44894656}
-  - {fileID: 1655868827}
+  - {fileID: 0}
 --- !u!4 &2044945256 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 29b30e0a1c1f9ad4cbb7a4c6baed54f7, type: 2}
@@ -14456,6 +13884,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf9976ddb8aac104b87531fa9bce650c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Flight: {fileID: 0}
   beeName: 
   beeColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &2111262590
@@ -14490,26 +13919,13 @@ MonoBehaviour:
   - {fileID: 468458420}
   - {fileID: 212447884}
   - {fileID: 834978520}
-  Path1: {fileID: 563406879}
-  Path2: {fileID: 1032570563}
-  Path3: {fileID: 1690290850}
-  Path4: {fileID: 591142933}
-  Path5: {fileID: 1867097916}
-  Path6: {fileID: 1511949310}
-  Path7: {fileID: 982334038}
-  Path8: {fileID: 1362120122}
-  Path9: {fileID: 1944210562}
-  Path10: {fileID: 1006323170}
-  Path11: {fileID: 1761056057}
-  Path12: {fileID: 2098542447}
-  Path13: {fileID: 1665901044}
-  Path14: {fileID: 1903721055}
-  Path15: {fileID: 833622378}
-  Path16: {fileID: 184974360}
-  Path17: {fileID: 1587795317}
-  Path18: {fileID: 468458420}
-  Path19: {fileID: 212447884}
-  Path20: {fileID: 834978520}
+  m_FlightData:
+    currentIndex: 0
+    startTime: 0
+    targetPosition: {x: 0, y: 0, z: 0}
+  updateInterval: 5
+  distBeforeRecalculation: 0.1
+  speed: 1
 --- !u!136 &2111262591
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -14539,6 +13955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf9976ddb8aac104b87531fa9bce650c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Flight: {fileID: 0}
   beeName: 
   beeColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &2145841214
@@ -14573,26 +13990,13 @@ MonoBehaviour:
   - {fileID: 1362120122}
   - {fileID: 1944210562}
   - {fileID: 1006323170}
-  Path1: {fileID: 1761056057}
-  Path2: {fileID: 2098542447}
-  Path3: {fileID: 1665901044}
-  Path4: {fileID: 1903721055}
-  Path5: {fileID: 833622378}
-  Path6: {fileID: 184974360}
-  Path7: {fileID: 1587795317}
-  Path8: {fileID: 468458420}
-  Path9: {fileID: 212447884}
-  Path10: {fileID: 834978520}
-  Path11: {fileID: 563406879}
-  Path12: {fileID: 1032570563}
-  Path13: {fileID: 1690290850}
-  Path14: {fileID: 591142933}
-  Path15: {fileID: 1867097916}
-  Path16: {fileID: 1511949310}
-  Path17: {fileID: 982334038}
-  Path18: {fileID: 1362120122}
-  Path19: {fileID: 1944210562}
-  Path20: {fileID: 1006323170}
+  m_FlightData:
+    currentIndex: 0
+    startTime: 0
+    targetPosition: {x: 0, y: 0, z: 0}
+  updateInterval: 5
+  distBeforeRecalculation: 0.1
+  speed: 1
 --- !u!136 &2145841215
 CapsuleCollider:
   m_ObjectHideFlags: 0
