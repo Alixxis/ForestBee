@@ -10,6 +10,7 @@ public class BeeManager : MonoBehaviour
     public static Action<Bee> OnBeeHit;
 
     public Bee m_BeeBluePrefab;
+    public Bee m_BeeYellowPrefab; //testing
 
     public Transform firstBlueBee;  
     public List<Transform> spawnPoints = new List<Transform>(); 
@@ -56,14 +57,15 @@ public class BeeManager : MonoBehaviour
         Destroy(go);
     }
 
-    public void Onm_BeeBluePrefabCounted() //testing
+    public void Onm_BeeBluePrefabCounted(Bee currentBee, Bee newBee, Vector3 position, Quaternion rotation) //testing
     {
         if (m_BeeBluePrefabCount == Maxm_BeeBluePrefab)
         {
-            var jellyFishCollection = FindObjectsOfType<Bee>();
             //foreach (var bee in redBeeCollection)
             {
-                //fish.ChangeColor();
+                var beeInstance = Instantiate(newBee, position, rotation);
+                beeInstance.InitData(currentBee);
+                beeInstance.gameObject.SetActive(true);
             }
         }
     }
