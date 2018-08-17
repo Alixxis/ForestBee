@@ -33,15 +33,17 @@ public class BeeManager : MonoBehaviour
     public void BeeHit(Bee bee) 
     {
         //Create a new bee
-        CreateBee(m_BeeBluePrefab,bee.transform.position, bee.transform.rotation);
+        CreateBee(bee, m_BeeBluePrefab,bee.transform.position, bee.transform.rotation);
+
         //Destroy old one
         DestroyBee(bee.gameObject);
     }
 
     //Generates a new bee at X location
-    public void CreateBee(Bee bee,Vector3 position, Quaternion rotation)
+    public void CreateBee(Bee currentBee,Bee newBee,Vector3 position, Quaternion rotation)
     {
-        var beeInstance = Instantiate(bee, position, rotation);
+        var beeInstance = Instantiate(newBee, position, rotation);
+        beeInstance.InitData(currentBee);
         beeInstance.gameObject.SetActive(true);
     }
 
