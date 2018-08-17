@@ -11,16 +11,19 @@ public class BeeManager : MonoBehaviour
 
     public Bee m_BeeBluePrefab;
 
-    public Transform firstBlueBee;  //testing
-    public List<Transform> spawnPoints = new List<Transform>(); //testing
+    public Transform firstBlueBee;  
+    public List<Transform> spawnPoints = new List<Transform>(); 
+
+    public int m_BeeBluePrefabCount = 0;  //testing
+    public int Maxm_BeeBluePrefab = 19;  //testing
 
     private void Awake()
     {
         //Subscribe BeeHit method to OnBeeHit event that gets called by Bee
         OnBeeHit += BeeHit;
 
-        firstBlueBee.transform.position = spawnPoints[0].position; //testing
-        firstBlueBee.transform.rotation = spawnPoints[0].rotation; //testing
+        firstBlueBee.transform.position = spawnPoints[0].position; 
+        firstBlueBee.transform.rotation = spawnPoints[0].rotation; 
     }
 
     private void OnDestroy()
@@ -51,6 +54,18 @@ public class BeeManager : MonoBehaviour
     public void DestroyBee(GameObject go)
     {
         Destroy(go);
+    }
+
+    public void Onm_BeeBluePrefabCounted() //testing
+    {
+        if (m_BeeBluePrefabCount == Maxm_BeeBluePrefab)
+        {
+            var jellyFishCollection = FindObjectsOfType<Bee>();
+            //foreach (var bee in redBeeCollection)
+            {
+                //fish.ChangeColor();
+            }
+        }
     }
 
 }
