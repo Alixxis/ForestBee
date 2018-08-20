@@ -4092,7 +4092,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EmulatorDevice: 1
-  m_BuildDevice: 1
+  m_BuildDevice: 2
 --- !u!1001 &537825255
 Prefab:
   m_ObjectHideFlags: 0

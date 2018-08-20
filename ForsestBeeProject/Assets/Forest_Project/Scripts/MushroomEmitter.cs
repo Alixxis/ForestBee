@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Liminal.SDK.VR;
+using Liminal.SDK.VR.Input;
 
 public class MushroomEmitter : MonoBehaviour
 {
@@ -10,7 +12,9 @@ public class MushroomEmitter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("space"))
+        if (VRDevice.Device.GetButtonUp(VRButton.Primary))
+
+            //(Input.GetKeyDown("space"))
         {
             GameObject Temporary_MushroomBullet_Handler;
             Temporary_MushroomBullet_Handler = Instantiate(MushroomBullet, Emitter.transform.position, Emitter.transform.rotation) as GameObject;
