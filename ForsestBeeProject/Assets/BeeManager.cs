@@ -10,13 +10,13 @@ public class BeeManager : MonoBehaviour
     public static Action<Bee> OnBeeHit;
 
     public Bee m_BeeBluePrefab;
-    public Bee m_BeeYellowPrefab; //testing
+    public Bee m_YellowBeePrefab; //testing
 
     public Transform firstBlueBee;  
     public List<Transform> spawnPoints = new List<Transform>(); 
 
-    public int m_BeeBluePrefabCount = 0;  //testing
-    public int Maxm_BeeBluePrefab = 19;  //testing
+    public int BlueBeeCount = 0;  //testing
+    public int MaxBlueBee = 19;  //testing
 
     private void Awake()
     {
@@ -39,6 +39,9 @@ public class BeeManager : MonoBehaviour
         //Create a new bee
         CreateBee(bee, m_BeeBluePrefab,bee.transform.position, bee.transform.rotation);
 
+        BlueBeeCount += 1;
+        //
+
         //Destroy old one
         DestroyBee(bee.gameObject);
     }
@@ -55,19 +58,6 @@ public class BeeManager : MonoBehaviour
     public void DestroyBee(GameObject go)
     {
         Destroy(go);
-    }
-
-    public void Onm_BeeBluePrefabCounted(Bee currentBee, Bee newBee, Vector3 position, Quaternion rotation) //testing
-    {
-        if (m_BeeBluePrefabCount == Maxm_BeeBluePrefab)
-        {
-            //foreach (var bee in redBeeCollection)
-            {
-                var beeInstance = Instantiate(newBee, position, rotation);
-                beeInstance.InitData(currentBee);
-                beeInstance.gameObject.SetActive(true);
-            }
-        }
     }
 
 }
