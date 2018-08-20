@@ -1177,6 +1177,34 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &112289861
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 112289862}
+  m_Layer: 0
+  m_Name: Emitter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &112289862
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 112289861}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1167230207}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &180449443
 Prefab:
   m_ObjectHideFlags: 0
@@ -2182,6 +2210,67 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &309170917
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2110268112}
+    m_Modifications:
+    - target: {fileID: 4452841968193986, guid: b61b6fcba433b8e48a69ee92ffc878e9, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 86.397
+      objectReference: {fileID: 0}
+    - target: {fileID: 4452841968193986, guid: b61b6fcba433b8e48a69ee92ffc878e9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 104.478
+      objectReference: {fileID: 0}
+    - target: {fileID: 4452841968193986, guid: b61b6fcba433b8e48a69ee92ffc878e9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 142.00932
+      objectReference: {fileID: 0}
+    - target: {fileID: 4452841968193986, guid: b61b6fcba433b8e48a69ee92ffc878e9, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.4424899
+      objectReference: {fileID: 0}
+    - target: {fileID: 4452841968193986, guid: b61b6fcba433b8e48a69ee92ffc878e9, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.24270642
+      objectReference: {fileID: 0}
+    - target: {fileID: 4452841968193986, guid: b61b6fcba433b8e48a69ee92ffc878e9, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0.22402991
+      objectReference: {fileID: 0}
+    - target: {fileID: 4452841968193986, guid: b61b6fcba433b8e48a69ee92ffc878e9, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.8337307
+      objectReference: {fileID: 0}
+    - target: {fileID: 4452841968193986, guid: b61b6fcba433b8e48a69ee92ffc878e9, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921534467941356, guid: b61b6fcba433b8e48a69ee92ffc878e9, type: 2}
+      propertyPath: m_Name
+      value: Mushroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 54773083349941072, guid: b61b6fcba433b8e48a69ee92ffc878e9,
+        type: 2}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 136109225457021132, guid: b61b6fcba433b8e48a69ee92ffc878e9,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 54773083349941072, guid: b61b6fcba433b8e48a69ee92ffc878e9,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b61b6fcba433b8e48a69ee92ffc878e9, type: 2}
+  m_IsPrefabParent: 0
 --- !u!4 &309170920 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000010002477438, guid: 5ca4c580b3888314581688fa46fb142d,
@@ -3124,7 +3213,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2110268112}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!108 &469498139
 Light:
@@ -5542,7 +5631,7 @@ Transform:
   - {fileID: 865280782}
   - {fileID: 309170920}
   m_Father: {fileID: 2110268112}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &772956491
 Prefab:
@@ -6557,7 +6646,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4162405467240868, guid: 8edb2fa3dc2112246b53357be701f37b, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4162405467240868, guid: 8edb2fa3dc2112246b53357be701f37b, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -7917,6 +8006,31 @@ Transform:
   m_Father: {fileID: 531037339}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1167230204 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1921534467941356, guid: b61b6fcba433b8e48a69ee92ffc878e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 309170917}
+--- !u!4 &1167230207 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4452841968193986, guid: b61b6fcba433b8e48a69ee92ffc878e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 309170917}
+--- !u!114 &1167230208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1167230204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bb967de31569e5479415135a78185e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Emitter: {fileID: 112289861}
+  MushroomBullet: {fileID: 1921534467941356, guid: b61b6fcba433b8e48a69ee92ffc878e9,
+    type: 2}
+  MushroomBullet_Up_Force: 700
 --- !u!1001 &1196418615
 Prefab:
   m_ObjectHideFlags: 0
@@ -11568,7 +11682,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4505641103393420, guid: 37ea23c777f9b284393e051d2860c003, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1690858186917078, guid: 37ea23c777f9b284393e051d2860c003, type: 2}
       propertyPath: m_Name
@@ -13808,8 +13922,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1704874592}
+  - {fileID: 1167230207}
   - {fileID: 210911649}
+  - {fileID: 1704874592}
   - {fileID: 743512859}
   - {fileID: 469498138}
   - {fileID: 950381372}
