@@ -13,6 +13,8 @@ public class BeeManager : MonoBehaviour
     public Bee m_BeeBluePrefab;
     public Bee m_YellowBeePrefab; //testing
 
+    public Material blueSky; //testing
+
     public Transform firstYellowBee;  //testing
     public GameObject WaterfallEffect;
 
@@ -21,6 +23,10 @@ public class BeeManager : MonoBehaviour
 
     public int BlueBeeCount = 0;  //testing
     public int MaxBlueBee = 19;  //testing
+
+    public int YellowBeeCount = 0;  //testing
+    public int MaxYellowBee = 19;   //testing
+
     private Bee mBeeToSpawn;
     private void Awake()
     {
@@ -48,13 +54,19 @@ public class BeeManager : MonoBehaviour
         if (BlueBeeCount == MaxBlueBee)
         {
             mBeeToSpawn = m_YellowBeePrefab;
-            BlueBeeCount = 0;
-
-            Instantiate(WaterfallEffect, gameObject.transform.position, gameObject.transform.rotation);
+            BlueBeeCount = 0;            
         }
 
-        BlueBeeCount += 1;
+        if (YellowBeeCount == MaxYellowBee)            
+        {
+            
+            RenderSettings.skybox = blueSky;
+            Instantiate(WaterfallEffect, gameObject.transform.position, gameObject.transform.rotation);
+            gameObject.SetActive(true);
+        }
 
+        YellowBeeCount += 1;
+        BlueBeeCount += 1;
         //Destroy (whichever bee that got hit)
         DestroyBee(bee.gameObject);
     }
