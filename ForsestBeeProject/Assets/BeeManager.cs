@@ -14,6 +14,7 @@ public class BeeManager : MonoBehaviour
     public Bee m_YellowBeePrefab; //testing
 
     public Transform firstYellowBee;  //testing
+    public GameObject WaterfallEffect;
 
     public Transform firstBlueBee;  
     public List<Transform> spawnPoints = new List<Transform>(); 
@@ -48,6 +49,8 @@ public class BeeManager : MonoBehaviour
         {
             mBeeToSpawn = m_YellowBeePrefab;
             BlueBeeCount = 0;
+
+            Instantiate(WaterfallEffect, gameObject.transform.position, gameObject.transform.rotation);
         }
 
         BlueBeeCount += 1;
