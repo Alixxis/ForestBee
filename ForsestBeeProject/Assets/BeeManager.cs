@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Collections;
+using System;
 using UnityEngine;
 using System.Collections.Generic;
 
@@ -19,7 +20,7 @@ public class BeeManager : MonoBehaviour
 
     public int BlueBeeCount = 0;  //testing
     public int MaxBlueBee = 19;  //testing
-
+    private Bee mBeeToSpawn;
     private void Awake()
     {
         //Subscribe BeeHit method to OnBeeHit event that gets called by Bee
@@ -28,8 +29,7 @@ public class BeeManager : MonoBehaviour
         firstBlueBee.transform.position = spawnPoints[0].position; 
         firstBlueBee.transform.rotation = spawnPoints[0].rotation;
 
-        firstYellowBee.transform.position = spawnPoints[0].position; //testing
-        firstYellowBee.transform.rotation = spawnPoints[0].rotation; //testing
+        mBeeToSpawn = m_BeeBluePrefab;
     }
 
     private void OnDestroy()
@@ -42,25 +42,17 @@ public class BeeManager : MonoBehaviour
     public void BeeHit(Bee bee) 
     {
         //Create a new bee
-        CreateBee(bee, m_BeeBluePrefab,bee.transform.position, bee.transform.rotation);
+        CreateBee(bee, mBeeToSpawn, bee.transform.position, bee.transform.rotation);
 
         if (BlueBeeCount == MaxBlueBee)
-
         {
-
-            var beeCollection = FindObjectsOfType<Bee>();
-            foreach (var Bee in beeCollection)
-
-            {
-                CreateBee(bee, m_YellowBeePrefab, bee.transform.position, bee.transform.rotation);
-            }
-
+            mBeeToSpawn = m_YellowBeePrefab;
+            BlueBeeCount = 0;
         }
 
         BlueBeeCount += 1;
-        //
 
-        //Destroy old one
+        //Destroy (whichever bee that got hit)
         DestroyBee(bee.gameObject);
     }
 
