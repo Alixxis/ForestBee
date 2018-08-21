@@ -12,6 +12,8 @@ public class BeeManager : MonoBehaviour
     public Bee m_BeeBluePrefab;
     public Bee m_YellowBeePrefab; //testing
 
+    public Transform firstYellowBee;  //testing
+
     public Transform firstBlueBee;  
     public List<Transform> spawnPoints = new List<Transform>(); 
 
@@ -24,7 +26,10 @@ public class BeeManager : MonoBehaviour
         OnBeeHit += BeeHit;
 
         firstBlueBee.transform.position = spawnPoints[0].position; 
-        firstBlueBee.transform.rotation = spawnPoints[0].rotation; 
+        firstBlueBee.transform.rotation = spawnPoints[0].rotation;
+
+        firstYellowBee.transform.position = spawnPoints[0].position; //testing
+        firstYellowBee.transform.rotation = spawnPoints[0].rotation; //testing
     }
 
     private void OnDestroy()
@@ -38,6 +43,19 @@ public class BeeManager : MonoBehaviour
     {
         //Create a new bee
         CreateBee(bee, m_BeeBluePrefab,bee.transform.position, bee.transform.rotation);
+
+        if (BlueBeeCount == MaxBlueBee)
+
+        {
+
+            var beeCollection = FindObjectsOfType<Bee>();
+            foreach (var Bee in beeCollection)
+
+            {
+                CreateBee(bee, m_YellowBeePrefab, bee.transform.position, bee.transform.rotation);
+            }
+
+        }
 
         BlueBeeCount += 1;
         //
