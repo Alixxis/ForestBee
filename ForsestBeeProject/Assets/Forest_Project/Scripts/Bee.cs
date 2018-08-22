@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class Bee : MonoBehaviour, IPointerClickHandler
+public class Bee : MonoBehaviour
 {
     public Flight m_Flight;
 
@@ -21,7 +21,9 @@ public class Bee : MonoBehaviour, IPointerClickHandler
     public string beeName = "";
     public Color beeColor = Color.red;
 
-    public void OnPointerClick(PointerEventData eventData)
+    //oncollisionm 
+
+    public void OnTriggerEnter(Collider collider)
     {
         //Notify BeeManager that I've been hit by invoking the OnBeeHit event
         if(BeeManager.OnBeeHit != null)
