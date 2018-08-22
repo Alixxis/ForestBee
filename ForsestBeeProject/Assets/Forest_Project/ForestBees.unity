@@ -17934,11 +17934,6 @@ Transform:
   m_Father: {fileID: 45915002}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &938391589 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1000012529653530, guid: 8edb62778d3ea1e489bc191b81b2fc46,
-    type: 2}
-  m_PrefabInternal: {fileID: 323559571}
 --- !u!1001 &940145594
 Prefab:
   m_ObjectHideFlags: 0
@@ -30398,7 +30393,6 @@ MonoBehaviour:
   blueSky: {fileID: 2100000, guid: e391f00234292cc4f935308c11cf0e54, type: 2}
   magicSky: {fileID: 2100000, guid: e2341a9d03e86ec4290c72b1e22bbc7c, type: 2}
   firstYellowBee: {fileID: 65282429}
-  waterfallEffect: {fileID: 938391589}
   firstBlueBee: {fileID: 1704874592}
   spawnPoints:
   - {fileID: 1389972478}

@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 54773083349941072}
   - component: {fileID: 122567614893339190}
   - component: {fileID: 82190470579162580}
+  - component: {fileID: 114886904615351752}
   m_Layer: 0
   m_Name: MushroomBullet
   m_TagString: Untagged
@@ -181,6 +182,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &114886904615351752
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1921534467941356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5be8b116391ef24d95d0d2a947ed8f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!122 &122567614893339190
 Halo:
   m_ObjectHideFlags: 1

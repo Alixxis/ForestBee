@@ -6,10 +6,12 @@ using UnityEngine.EventSystems;
 public class Bee : MonoBehaviour
 {
     public Flight m_Flight;
-
+    private bool CanHit = true;
+    private Collider _collider;
     void Awake()
     {
         m_Flight = GetComponent<Flight>();
+        _collider = GetComponent<Collider>();
     }
 
     public void InitData(Bee bee)
@@ -25,9 +27,21 @@ public class Bee : MonoBehaviour
 
     public void OnTriggerEnter(Collider collider)
     {
-        //Notify BeeManager that I've been hit by invoking the OnBeeHit event
-        if(BeeManager.OnBeeHit != null)
-            BeeManager.OnBeeHit.Invoke(this);
+        var mushroomProjectile = collider.gameObject.GetComponent<MushroomProjectile>();
+
+        if (mushroomProjectile)
+        {
+            //Notify BeeManager that I've been hit by invoking the OnBeeHit event
+            if (BeeManager.OnBeeHit != null)
+                BeeManager.OnBeeHit.Invoke(this);
+
+            Destroy(mushroomProjectile);
+        }
+    }
+
+    public void SetColliderState(bool state)
+    {
+        _collider.enabled = state;
     }
 }
 

@@ -38,6 +38,18 @@ public class BeeManager : MonoBehaviour
         mBeeToSpawn = m_BeeBluePrefab;
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyUp(KeyCode.P))
+        {
+            var bees = FindObjectsOfType<Bee>();
+            foreach (var bee in bees)
+            {
+                BeeHit(bee);
+            }
+        }
+    }
+
     private void OnDestroy()
     {
         //Unsubscribe BeeHit method to OnBeeHit event that gets called by Bee
@@ -50,16 +62,23 @@ public class BeeManager : MonoBehaviour
         //Create a new bee
         CreateBee(bee, mBeeToSpawn, bee.transform.position, bee.transform.rotation);
 
+        if (mBeeToSpawn == m_BeeBluePrefab)
+        {
+            BlueBeeCount += 1;
+        }
+
         if (BlueBeeCount == MaxBlueBee)
         {
             mBeeToSpawn = m_YellowBeePrefab;
             RenderSettings.skybox = blueSky;
-            //Instantiate(waterfallEffect, gameObject.transform.position, gameObject.transform.rotation);
-        }
 
-        if (mBeeToSpawn == m_BeeBluePrefab)
-        {
-            BlueBeeCount += 1;
+            //Renable colliders on all bees
+            var bees = FindObjectsOfType<Bee>();
+
+            foreach (var beeInstance in bees)
+            {
+                beeInstance.SetColliderState(true);
+            }
         }
 
         if (mBeeToSpawn == m_YellowBeePrefab)
@@ -82,6 +101,9 @@ public class BeeManager : MonoBehaviour
         var beeInstance = Instantiate(newBee, position, rotation);
         beeInstance.InitData(currentBee);
         beeInstance.gameObject.SetActive(true);
+
+        //Disable collider
+        beeInstance.SetColliderState(false);
     }
 
     //Destroy 
