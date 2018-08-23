@@ -24,7 +24,7 @@ public class BeeManager : MonoBehaviour
     public int MaxBlueBee = 19;  
 
     public int YellowBeeCount = 0;  
-    public int MaxYellowBee = 19;   
+    public int MaxYellowBee = 19;
 
     private Bee mBeeToSpawn;
     private void Awake()
@@ -84,11 +84,11 @@ public class BeeManager : MonoBehaviour
         if (mBeeToSpawn == m_YellowBeePrefab)
         {
             YellowBeeCount += 1;
+        }
 
-            if (YellowBeeCount == MaxYellowBee)
-            {
-                RenderSettings.skybox = magicSky;
-            }
+        if (YellowBeeCount == MaxYellowBee)
+        {
+            RenderSettings.skybox = magicSky;
         }
 
         //Destroy (whichever bee that got hit)
